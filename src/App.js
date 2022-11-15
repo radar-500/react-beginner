@@ -15,6 +15,7 @@ function App() {
       <div className="container">
           <h1 style={design}>แอพบัญชีรายรับ - รายจ่าย</h1>
           <FormComponent onAddItem={onAddNewItem}/>
+          <h1>Radar</h1>
           <Transaction items = {items}/>
       </div>  
   );
